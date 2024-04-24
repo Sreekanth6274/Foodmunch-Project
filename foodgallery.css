@@ -1,0 +1,19 @@
+
+#logo{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.li{
+    list-style-type: none;
+}
+
+.li:hover{
+    text-decoration: underline;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3, 200px);
+    justify-content: space-around;
+}

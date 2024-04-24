@@ -1,0 +1,28 @@
+.background2{
+    background-image: url(./images/about\ bg.jpg);
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    /* display: flex;
+     justify-content: center;
+     padding: 50px; */
+     
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#logo{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.li{
+    list-style-type: none;
+}
+
+.li:hover{
+    text-decoration: underline;
+}
